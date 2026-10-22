@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Currículo profissional de Murilo Moi.">
+  <meta name="theme-color" content="#16324f">
+  <title>Murilo Moi | Currículo</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1d2935;
+      --muted: #596b7a;
+      --accent: #16324f;
+      --accent-soft: #eaf1f7;
+      --line: #d8e1e8;
+      --paper: #ffffff;
+      --background: #edf2f6;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; padding: 32px 16px; color: var(--ink);
+      background: var(--background); font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px; line-height: 1.6;
+    }
+    .resume {
+      width: min(900px, 100%); margin: 0 auto; overflow: hidden;
+      background: var(--paper); border: 1px solid var(--line);
+      border-radius: 14px; box-shadow: 0 12px 36px rgb(22 50 79 / 9%);
+    }
+    .hero { padding: 40px 44px 32px; color: #fff; background: var(--accent); }
+    .hero h1 { margin: 0; font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.15; letter-spacing: -0.03em; }
+    .profession { margin: 12px 0 20px; color: #d8e7f3; font-size: 1.05rem; font-weight: 600; }
+    .contact-list {
+      display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px 18px;
+      margin: 0; padding: 0; list-style: none; font-size: 0.93rem;
+    }
+    .contact-list li { min-width: 0; overflow-wrap: anywhere; }
+    .contact-list a { color: #fff; text-underline-offset: 3px; }
+    main { padding: 12px 44px 36px; }
+    section { padding: 22px 0; border-bottom: 1px solid var(--line); }
+    section:last-child { border-bottom: 0; }
+    h2 { margin: 0 0 12px; color: var(--accent); font-size: 1.13rem; letter-spacing: 0.045em; text-transform: uppercase; }
+    p { margin: 0 0 10px; }
+    p:last-child { margin-bottom: 0; }
+    .entry + .entry { margin-top: 20px; }
+    .entry-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; }
+    h3 { margin: 0; font-size: 1.03rem; }
+    .period { color: var(--muted); font-size: 0.92rem; font-weight: 600; }
+    .organization { margin: 2px 0 8px; color: var(--muted); }
+    ul.details { margin: 8px 0 0; padding-left: 21px; }
+    ul.details li + li { margin-top: 5px; }
+    .skills { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+    .skills li { padding: 6px 11px; border: 1px solid #d2e0eb; border-radius: 6px; background: var(--accent-soft); font-size: 0.93rem; }
+    .skills-label { margin: 14px 0 8px; color: var(--muted); font-size: 0.9rem; font-weight: 700; }
+    .site-footer { padding: 0 44px 28px; color: var(--muted); font-size: 0.85rem; text-align: center; }
+    a:focus-visible { outline: 3px solid #e0a52b; outline-offset: 3px; border-radius: 2px; }
+    @media (max-width: 760px) { .contact-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 600px) {
+      body { padding: 0; background: var(--paper); }
+      .resume { border: 0; border-radius: 0; box-shadow: none; }
+      .hero { padding: 30px 22px 26px; }
+      main { padding: 4px 22px 28px; }
+      .site-footer { padding: 0 22px 24px; }
+      .contact-list { grid-template-columns: 1fr; gap: 7px; }
+    }
+    @media print {
+      @page { margin: 14mm; }
+      body { padding: 0; background: #fff; font-size: 10.5pt; }
+      .resume { width: 100%; border: 0; border-radius: 0; box-shadow: none; }
+      .hero { padding: 22px 26px; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+      main { padding: 4px 26px 14px; }
+      section { padding: 14px 0; break-inside: avoid; }
+      .site-footer { padding: 0 26px 12px; }
+      a { color: inherit; }
+    }
+  </style>
+</head>
+<body>
+  <article class="resume" aria-label="Currículo profissional">
+    <main>
+    </main>
+    <footer class="site-footer">Currículo profissional • Murilo Moi</footer>
+  </article>
+</body>
+</html>
