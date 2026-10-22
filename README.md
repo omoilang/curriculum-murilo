@@ -5,7 +5,7 @@ Projeto de currículo em HTML5 para a atividade prática de Git e GitHub.
 ## Arquivos
 
 - `index.html`: currículo responsivo com CSS incorporado.
-- `publicar-github.bat`: publica os avanços da branch `main` e as branches de desenvolvimento.
+- `github.bat`: publica os avanços da branch `main` e as branches de desenvolvimento.
 - Histórico Git: branches de funcionalidade e merges para `main`.
 
 ## Seções
@@ -30,6 +30,6 @@ Abra o arquivo `index.html` em um navegador.
 git remote add origin https://github.com/SEU-USUARIO/curriculum-murilo.git
 ```
 
-3. No Windows, execute `publicar-github.bat` no Prompt de Comando. O script envia os commits da `main` em ordem e depois publica as branches de desenvolvimento.
+3. No Windows, execute `github.bat` no Prompt de Comando. O script envia os commits da `main` em ordem e depois publica as branches de desenvolvimento.
 
 A publicação exige autenticação válida no GitHub.
